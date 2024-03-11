@@ -104,6 +104,7 @@ RUN apt-get update && \
       gnuplot \
       gpg \
       gpg-agent \
+      perl \
       locales && \
       locale-gen en_GB en_GB.UTF-8 && \
       localedef -i en_GB -c -f UTF-8 -A /usr/share/locale/locale.alias en_GB.UTF-8
